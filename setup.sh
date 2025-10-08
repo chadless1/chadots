@@ -20,6 +20,19 @@ else
         true
 fi
 
+clear
+echo
+echo you need to backup your .bashrc in order to stow
+echo back up .bashrc
+echo  "(y/n)"
+read USER_INPUT
+if [[ $USER_INPUT == y ]];
+then 
+        ## install packages ##
+        mv ~/.bashrc ~/.bashrc.bk
+else
+        true
+fi
 #############################
 
 ## stow files ##
