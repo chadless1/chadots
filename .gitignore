@@ -1,0 +1,4 @@
+# ignore vim bundle plugins except Vundle
+vim/.vim/bundle/*
+!vim/.vim/bundle/Vundle.vim
+!vim/.vim/bundle/vim-startify
