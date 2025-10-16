@@ -4,7 +4,7 @@
 ---
 
 my dotfiles for shell and cli apps  
-these are for a debian based system and uses apt to install apps/dependencies  
+these are for a debian based systems and uses apt to install apps/dependencies  
 you will need to edit this to run on other distros  
 most of the keybinds are default but you will need to read the config to see the additional ones  
 
@@ -13,6 +13,7 @@ most of the keybinds are default but you will need to read the config to see the
 - vim
 - ranger
 - tmux
+- fastfetch
 
 ## How to Install
 run the setup script to install apps and dependencies (check script before installing)  

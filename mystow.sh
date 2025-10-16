@@ -10,7 +10,7 @@
 choices="$(dialog --title "Stow Dotfiles" --stdout --checklist "Select Dotfiles to Stow:" 0 0 0 \
   "shell" "" off \
   "vim" "" off \
-  "neofetch" "" off \
+  "fastfetch" "" off \
   "fonts" "" off \
   "ranger" "" off \
 )"

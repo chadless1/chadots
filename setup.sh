@@ -15,7 +15,7 @@ read USER_INPUT
 if [[ $USER_INPUT == y ]];
 then 
         ## install packages ##
-        sudo apt install htop neofetch cmatrix tmux lsd vim python3-venv python3-dev g++ stow ranger cmake curl unzip dialog fzf
+        sudo apt install htop fastfetch cmatrix tmux lsd vim-nox python3-venv python3-dev g++ stow ranger cmake curl unzip dialog fzf figlet
 else
         true
 fi
